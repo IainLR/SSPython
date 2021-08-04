@@ -27,6 +27,8 @@ def monthly_payment_calc(loanSize, interestRate, lengthOT):
     monthlyRate = interestRate/12
     payment = (loanSize * monthlyRate) / (1 - pow((1 + monthlyRate), -lengthOT))
 
-    print(round(payment))
+    print(round(payment)) 
+
+
 
 monthly_payment_calc(800000, .06, 103)
