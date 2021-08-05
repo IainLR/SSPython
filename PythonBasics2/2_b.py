@@ -55,3 +55,46 @@ def my_factorial(num):
 my_factorial(8)
 
 # 12
+def dictionary_integers(num):
+    result_dictionary = {}
+    for i in range(1, num+1):
+        result_dictionary[i] = i*i
+
+    print(result_dictionary)
+     
+dictionary_integers(8)
+
+# 13
+def console_to_list_and_tuple():
+    result_list = []
+    loop = True
+    while loop:
+        print("enter integer, or 'done'")
+        response = input()
+        if response.lower() != 'done':
+            result_list.append(int(response))
+        else:
+            loop = False
+    print(result_list)
+    print(tuple(result_list))
+
+
+# console_to_list_and_tuple()
+        
+# 14
+    
+class MyClass():
+    def __init__(self):
+      self.classString = ''
+
+    def getString(self):
+        response = input()
+        self.classString = response
+        
+
+    def printString(self):
+        print(self.classString.upper())
+
+# myObj = MyClass()
+# myObj.getString()
+# myObj.printString()
