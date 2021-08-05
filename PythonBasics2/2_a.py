@@ -1,7 +1,4 @@
 # 1
-from typing import Reversible
-
-
 print('Hello World'[8])
 
 # 2
