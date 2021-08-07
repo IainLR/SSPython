@@ -18,7 +18,7 @@ def bmi_checker(list_of_stats):
             res_string += 'obese '
     return res_string
 
-stat_list = [[80, 1.73], [55, 1.58], [49, 1.91]]
+stat_list = [[80, 1.73], [55, 1.58], [49, 1.91]] 
 
 x = input("how many sets of data are entering today?\n")
 x_int = int(x)
